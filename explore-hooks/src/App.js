@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Button from './components/Button';
 import ButtonHook from './components/ButtonHook';
+import DataFetchHooks from './components/DataFetchHooks';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Button/>
       <br/>
       <ButtonHook/>
+      <DataFetchHooks/>
 
     </div>
   );
